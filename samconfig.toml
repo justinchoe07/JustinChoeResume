@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "final-justin-challenge"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-tr24fpp3ta3"
+s3_prefix = "final-justin-challenge"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
